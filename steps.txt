@@ -1,0 +1,31 @@
+1) changed directory to desktop
+2) created new directory
+3) created local repository with git init
+4) created and html and css file in that folder and then git add .
+5) created repository in github and copied the link and from command line I git remote add my new directory to github
+6) changed the html and css files and pushed them to the repository.
+
+
+aarons-MacBook-Pro-2:~ aaron_wku$ cd desktop
+aarons-MacBook-Pro-2:desktop aaron_wku$ mkdir basic_repo
+aarons-MacBook-Pro-2:desktop aaron_wku$ cd basic_repo
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git init
+Initialized empty Git repository in /Users/aaron_wku/Desktop/basic_repo/.git/
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ touch basic.html
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ touch basic.css
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git add .
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git commit -m "added html and css"
+[master (root-commit) 7fccf6b] added html and css
+ 2 files changed, 21 insertions(+)
+ create mode 100644 basic.css
+ create mode 100644 basic.html
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git remote add basic_repo https://github.com/aaronwel/basic_repo.git
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git status
+On branch master
+nothing to commit, working directory clean
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git add .
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ git commit -m "edited html and css"
+[master f756fab] edited html and css
+ 2 files changed, 21 insertions(+), 2 deletions(-)
+aarons-MacBook-Pro-2:basic_repo aaron_wku$ touch steps.txt
+aarons-MacBook-Pro-2:
