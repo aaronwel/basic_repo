@@ -5,3 +5,16 @@
 h1{
   color: blue;
 }
+#wrapper{
+  width:970:px;
+}
+#main{
+  width:800px;
+  background-color: gray;
+}
+ul{
+  text-decoration: none;
+}
+li{
+  text-decoration-color: red;
+}
